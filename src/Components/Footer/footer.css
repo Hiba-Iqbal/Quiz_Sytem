@@ -1,0 +1,259 @@
+.footer {
+    margin: -2rem 2rem;
+    padding-bottom: 2rem;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.review input {
+    box-sizing: border-box;
+    margin: 0;
+    overflow: visible;
+    width: 1rem;
+    height:1rem;
+    text-align: center;
+}
+.review p{
+    font-size: 1rem;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+
+.foot2{
+    /* font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5; */
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    /* position: relative; */
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    order: 1;
+    flex: 0 0 75%;
+    max-width: 75%;
+    display: inline; 
+}
+.foot2 ul{
+    text-align: center;
+    /* display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(10,1fr); */
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    margin-top: -1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.5);
+    background: rgba(255,255,255,.25);
+    border-radius: 4px;
+    list-style: none;
+    overflow-x: scroll;
+    white-space: nowrap;
+    font-size: 0;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 0;
+}
+
+.question-navigation ul li{
+         font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+        list-style: none;
+        white-space: nowrap;
+        box-sizing: border-box;
+        font-size: inherit;
+        display: inline;
+}
+
+.question-navigation p{
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    list-style: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    /* display: inline-block; */
+    /* text-align: center; */
+    vertical-align: middle;
+    user-select: none;
+    /* padding: -3rem .75rem; */
+    font-size: 1rem;
+    /* line-height: 1.5; */
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    opacity: .65;
+    background-color: transparent;
+    color: #000;
+    font-weight: 700;
+    border: none;
+    padding-right: 0;}
+
+.question-navigation li{
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    list-style: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: inherit;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.question-navigation li button:hover, .active{
+    list-style: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-weight: bolder!important;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+    border: none;
+    width: 35px;
+    height: 35px;
+    background-color: #b4dbf7;
+    color: #fff;
+}
+.question-navigation li button{
+    list-style: none;
+    white-space: nowrap;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    font-weight: bolder!important;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+    background-color: #565656;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+
+
+
+.foot3 {
+    
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    text-align: right;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 0;
+}
+
+.foot3 button{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: inherit;
+    overflow: visible;
+    text-transform: none;
+    display: inline-block;
+    font-weight: 400;
+    margin-top: -8rem;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    color: #fff;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    /* padding: 3px 0 0; */
+    max-width: 45%;
+    height: 60px;
+    direction: rtl;
+}
+
+.arrow-left{
+    font-family: inherit;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    cursor: pointer;
+    direction: rtl;
+    box-sizing: border-box;
+    height: 70%;
+    display: block;
+    background-image: url(../../images/arrow2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    padding-right: 5rem;
+}
+
+
+.arrow-right {
+    padding-top: 2.2rem;
+    transform: rotate(180deg);
+    font-family: inherit;
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+    font-size: 1rem;
+    margin-right: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 70%;
+    display: block;
+    background-image: url(../../images/arrow2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+}
+

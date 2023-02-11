@@ -1,0 +1,171 @@
+.main { 
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c9dce;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    min-height: 100vh;
+    background-color: #dce5f6;
+}
+
+.main_container1{
+    font-size: 1rem;
+    height: 90vh;
+    overflow: scroll;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    flex-basis: 0;
+    flex-grow: 1;
+    /* max-width: 100%; */
+    background-image: linear-gradient(to top,#fff,#dde3ee);
+    box-shadow: 0 .0714em .214em rgba(0,0,0,.25);
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 1em;
+    max-height: unset;
+    overflow-x: auto;
+    margin: 1.5rem 2rem;
+    /* padding: 0.5rem 0.5rem; */
+}
+
+.title1 {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: helvetica neue bold,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+}
+.title2 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.questions {
+    font-size: 1rem;
+    /* line-height: 1.5; */
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-weight: 700!important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+li{
+    margin: 1rem 1rem;
+}
+
+ul{
+ font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400!important;
+    box-sizing: border-box;
+    margin-top: 0;
+    list-style: none;
+    /* padding-left: 1.5rem!important; */
+}
+
+.questions li p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #212529;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700!important;
+}
+
+.options {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    font-weight: 700!important;
+}
+
+
+input {
+    list-style: none;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.sec2_p{ 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-family: helvetica neue regular,helvetica neue,Helvetica,Roboto,Arial,sans-serif;
+    box-sizing: border-box;
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+}
+
+.sec2_opt {
+    padding-bottom: 0.5rem;
+}
+.sec2_opt input{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: visible;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    border: 2px solid black;
+}
+.sec2_c input, .sec2_d input{
+    margin-left: 1rem;
+}
